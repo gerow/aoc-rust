@@ -15,7 +15,7 @@ fn calibration_value(line: &str) -> i32 {
         for c in line.chars() {
             if c.is_ascii_digit() {
                 first = c;
-                break
+                break;
             }
         }
 
@@ -23,7 +23,7 @@ fn calibration_value(line: &str) -> i32 {
         for c in line.chars().rev() {
             if c.is_ascii_digit() {
                 last = c;
-                break
+                break;
             }
         }
 
